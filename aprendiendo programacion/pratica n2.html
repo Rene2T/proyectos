@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>practica n2</title>
+</head>
+<body>
+   <h1>PRACTICA N2</h1> 
+   <P>hola esta es una nueva pratica donde <br>
+    aprenderemos nuevas cosas 
+</P>
+<br>
+<h2>input de texto</h2>
+<label for="correo1">input de correo</label><br>
+<input type="email" id="correo1" name="correo1" placeholder="email@hotmail.com">
+<br><br>
+
+<hr>
+
+<label for="numero1">imput de numero</label><br>
+<input type="number" id="numero1" name="numero1"> <br><br>
+ 
+<hr>
+
+<label for="psw1">input de password</label><br>
+<input type="password" id="psw1" name="psw1"> <br><br>
+
+<hr>
+
+
+
+
+<!--label-->
+<label for="clases">clases</label>
+<input type="clases" id="materias" value="clases">
+<h1>selecion unica</h1><br>
+<input type="checkbox" id="topping1" name="topping1">
+
+
+
+
+<h1>select</h1>
+<label for="clases"> QUE MATERIAS ELIGUES</label>
+<select name="clases" id="clases">
+    <option value="matematicas"> matematica </option>
+    <option value="lenguaje"> lenguaje </option>
+    <option value="historia"> historia </option>
+</select>
+
+<h2>SELECIONE CON INPUT</h2>
+<label for="botanas"> eligue la comida que mas te guste </label><br>
+<input list="botanas">
+<datalist id="botanas">
+    <option value="ruflex">
+    <option value="doritos">
+</datalist>
+
+
+
+<h2>selecione la fecha</h2><br>
+<input type="date" id="fecha1" name="fecha1"><br>
+<input type="datetime-local" id="fecha2" name="fecha2"><br>
+<input type="week" id="fecha3" name="fecha3"><br>
+<input type="time" id="fecha4" name="fecha4"><br>
+<input type="month" id="fecha5" name="fecha5"><br><br>
+
+
+<h2>ibput de tipo archivo</h2><br>
+<input type="file" id="archivo1" name="archivo1" multiple size="5mb"><br><br>
+
+<h2>input de tipo color </h2>
+<input type="color" id="color1" name="color1"><br><br>
+
+
+
+<h2>input de tipo rango</h2>
+<label for="vol">volumen (entre 0 y 100):</label><br>
+<input type="range" id="vol" name="vol" min="0" max="100"><br>
+
+<hr>
+
+
+<h1>input de tipo boton</h1>
+<input type="reset"><br>
+<input type="submit"> <br>
+<input type="button" id="boton1" name="boton1" value="boton1" onclick="alert(aplastaste el boton)"> <br><br>
+
+
+<hr>
+<!--formularios-->
+<h2>formulario</h2>
+<form action="/accion.js" id="form1" method="post">
+    <label for="nombre">nombre</label>
+    <input type="text" id="nombre" name="nombre"><br><br>
+    <input type="submit">
+    <input type="reset">
+</form>
+
+
+<label for="apellido"> ponga su apellido</label>
+<input type="text" id="apellido" name="apellido" form="form1">
+
+
+
+
+
+
+
+
+</body>
+</html>
